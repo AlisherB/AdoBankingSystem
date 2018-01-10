@@ -1,0 +1,7 @@
+C:\Users\БекмухамбетА\Desktop\ADO.NET\AdoBankingSystem\AdoBankingSystem.DAL\bin\Debug\AdoBankingSystem.DAL.dll
+C:\Users\БекмухамбетА\Desktop\ADO.NET\AdoBankingSystem\AdoBankingSystem.DAL\bin\Debug\AdoBankingSystem.DAL.pdb
+C:\Users\БекмухамбетА\Desktop\ADO.NET\AdoBankingSystem\AdoBankingSystem.DAL\bin\Debug\AdoBankingSystem.Shared.dll
+C:\Users\БекмухамбетА\Desktop\ADO.NET\AdoBankingSystem\AdoBankingSystem.DAL\bin\Debug\AdoBankingSystem.Shared.pdb
+C:\Users\БекмухамбетА\Desktop\ADO.NET\AdoBankingSystem\AdoBankingSystem.DAL\obj\Debug\AdoBankingSystem.DAL.csprojResolveAssemblyReference.cache
+C:\Users\БекмухамбетА\Desktop\ADO.NET\AdoBankingSystem\AdoBankingSystem.DAL\obj\Debug\AdoBankingSystem.DAL.dll
+C:\Users\БекмухамбетА\Desktop\ADO.NET\AdoBankingSystem\AdoBankingSystem.DAL\obj\Debug\AdoBankingSystem.DAL.pdb

@@ -1,0 +1,45 @@
+﻿<Window x:Class="ClientUI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ClientUI"
+        mc:Ignorable="d"
+        Title="RegistrationWindow" Height="241.737" Width="503.496" MinWidth="503.496" MinHeight="241.737" MaxHeight="241.737" MaxWidth="503.496">
+    <Grid>
+        <Button x:Name="signUpButton" Content="Sign Up" HorizontalAlignment="Left" Margin="110,165,0,0" VerticalAlignment="Top" Width="91" Height="26" Click="SignUpButton_Click">
+            <Button.Background>
+                <LinearGradientBrush>
+                    <GradientStop Color="#FF3F3F46" Offset="1"/>
+                    <GradientStop Color="White"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button x:Name="countButton" Content="Count" HorizontalAlignment="Left" Margin="362,165,0,0" VerticalAlignment="Top" Width="81" Height="26" Click="CountButton_Click">
+            <Button.Background>
+                <LinearGradientBrush MappingMode="RelativeToBoundingBox">
+                    <GradientStop Color="#FF3F3F46" Offset="1"/>
+                    <GradientStop Color="White"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <GridSplitter HorizontalAlignment="Left" Height="260" VerticalAlignment="Top" Width="4" Margin="298,0,0,0" Background="#FF3F3F46"/>
+        <TextBox x:Name="firstNameTextBox" HorizontalAlignment="Left" Height="23" Margin="110,11,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="183"/>
+        <TextBox x:Name="lastNameTextBox" HorizontalAlignment="Left" Height="23" Margin="110,39,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="183"/>
+        <TextBox x:Name="emailTextBox" HorizontalAlignment="Left" Height="23" Margin="110,67,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="183"/>
+        <TextBox x:Name="passwordTextBox" HorizontalAlignment="Left" Height="23" Margin="110,95,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="183"/>
+        <TextBox x:Name="passwordConfirmTextBox" HorizontalAlignment="Left" Height="23" Margin="110,123,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="183"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,11,0,0" TextWrapping="Wrap" Text="FirstName" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,39,0,0" TextWrapping="Wrap" Text="LastName" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,67,0,0" TextWrapping="Wrap" Text="Email" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,95,0,0" TextWrapping="Wrap" Text="Password" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,123,0,0" TextWrapping="Wrap" Text="Password Confirm" VerticalAlignment="Top"/>
+        <TextBox x:Name="emailSignInTextBox" HorizontalAlignment="Left" Height="23" Margin="362,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="123"/>
+        <TextBox x:Name="passwordSignInTextBox" HorizontalAlignment="Left" Height="23" Margin="362,41,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="123"/>
+        <TextBlock HorizontalAlignment="Left" Margin="307,11,0,0" TextWrapping="Wrap" Text="Email" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="307,42,0,0" TextWrapping="Wrap" Text="Password" VerticalAlignment="Top"/>
+        <Label x:Name="waitLabel" Content="Label" HorizontalAlignment="Right" Margin="0,123,52,0" VerticalAlignment="Top" Width="136"/>
+        <Label x:Name="countLabel" Content="0" Margin="469,123,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" RenderTransformOrigin="1.591,0.534"/>
+
+    </Grid>
+</Window>

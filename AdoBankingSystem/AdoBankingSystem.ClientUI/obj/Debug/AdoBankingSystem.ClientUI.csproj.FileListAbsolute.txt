@@ -1,0 +1,8 @@
+C:\Users\БекмухамбетА\Desktop\ADO.NET\AdoBankingSystem\AdoBankingSystem.ClientUI\bin\Debug\AdoBankingSystem.ClientUI.exe.config
+C:\Users\БекмухамбетА\Desktop\ADO.NET\AdoBankingSystem\AdoBankingSystem.ClientUI\bin\Debug\AdoBankingSystem.ClientUI.exe
+C:\Users\БекмухамбетА\Desktop\ADO.NET\AdoBankingSystem\AdoBankingSystem.ClientUI\bin\Debug\AdoBankingSystem.ClientUI.pdb
+C:\Users\БекмухамбетА\Desktop\ADO.NET\AdoBankingSystem\AdoBankingSystem.ClientUI\obj\Debug\AdoBankingSystem.ClientUI.Forms.RegistrationWindow.resources
+C:\Users\БекмухамбетА\Desktop\ADO.NET\AdoBankingSystem\AdoBankingSystem.ClientUI\obj\Debug\AdoBankingSystem.ClientUI.Properties.Resources.resources
+C:\Users\БекмухамбетА\Desktop\ADO.NET\AdoBankingSystem\AdoBankingSystem.ClientUI\obj\Debug\AdoBankingSystem.ClientUI.csproj.GenerateResource.Cache
+C:\Users\БекмухамбетА\Desktop\ADO.NET\AdoBankingSystem\AdoBankingSystem.ClientUI\obj\Debug\AdoBankingSystem.ClientUI.exe
+C:\Users\БекмухамбетА\Desktop\ADO.NET\AdoBankingSystem\AdoBankingSystem.ClientUI\obj\Debug\AdoBankingSystem.ClientUI.pdb

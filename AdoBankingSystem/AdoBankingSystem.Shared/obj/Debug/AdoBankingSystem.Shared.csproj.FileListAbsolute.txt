@@ -1,0 +1,7 @@
+C:\Users\БекмухамбетА\Desktop\ADO.NET\AdoBankingSystem\AdoBankingSystem.Shared\bin\Debug\AdoBankingSystem.Shared.dll
+C:\Users\БекмухамбетА\Desktop\ADO.NET\AdoBankingSystem\AdoBankingSystem.Shared\bin\Debug\AdoBankingSystem.Shared.pdb
+C:\Users\БекмухамбетА\Desktop\ADO.NET\AdoBankingSystem\AdoBankingSystem.Shared\bin\Debug\LiteDB.dll
+C:\Users\БекмухамбетА\Desktop\ADO.NET\AdoBankingSystem\AdoBankingSystem.Shared\bin\Debug\LiteDB.xml
+C:\Users\БекмухамбетА\Desktop\ADO.NET\AdoBankingSystem\AdoBankingSystem.Shared\obj\Debug\AdoBankingSystem.Shared.csprojResolveAssemblyReference.cache
+C:\Users\БекмухамбетА\Desktop\ADO.NET\AdoBankingSystem\AdoBankingSystem.Shared\obj\Debug\AdoBankingSystem.Shared.dll
+C:\Users\БекмухамбетА\Desktop\ADO.NET\AdoBankingSystem\AdoBankingSystem.Shared\obj\Debug\AdoBankingSystem.Shared.pdb

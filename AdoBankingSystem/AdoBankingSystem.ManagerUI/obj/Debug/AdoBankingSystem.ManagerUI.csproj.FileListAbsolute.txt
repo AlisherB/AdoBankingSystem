@@ -1,0 +1,8 @@
+C:\Users\БекмухамбетА\Desktop\ADO.NET\AdoBankingSystem\AdoBankingSystem.ManagerUI\bin\Debug\AdoBankingSystem.ManagerUI.exe.config
+C:\Users\БекмухамбетА\Desktop\ADO.NET\AdoBankingSystem\AdoBankingSystem.ManagerUI\bin\Debug\AdoBankingSystem.ManagerUI.exe
+C:\Users\БекмухамбетА\Desktop\ADO.NET\AdoBankingSystem\AdoBankingSystem.ManagerUI\bin\Debug\AdoBankingSystem.ManagerUI.pdb
+C:\Users\БекмухамбетА\Desktop\ADO.NET\AdoBankingSystem\AdoBankingSystem.ManagerUI\obj\Debug\AdoBankingSystem.ManagerUI.csprojResolveAssemblyReference.cache
+C:\Users\БекмухамбетА\Desktop\ADO.NET\AdoBankingSystem\AdoBankingSystem.ManagerUI\obj\Debug\AdoBankingSystem.ManagerUI.Properties.Resources.resources
+C:\Users\БекмухамбетА\Desktop\ADO.NET\AdoBankingSystem\AdoBankingSystem.ManagerUI\obj\Debug\AdoBankingSystem.ManagerUI.csproj.GenerateResource.Cache
+C:\Users\БекмухамбетА\Desktop\ADO.NET\AdoBankingSystem\AdoBankingSystem.ManagerUI\obj\Debug\AdoBankingSystem.ManagerUI.exe
+C:\Users\БекмухамбетА\Desktop\ADO.NET\AdoBankingSystem\AdoBankingSystem.ManagerUI\obj\Debug\AdoBankingSystem.ManagerUI.pdb
