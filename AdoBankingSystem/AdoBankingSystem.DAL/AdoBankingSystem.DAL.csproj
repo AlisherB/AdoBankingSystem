@@ -43,6 +43,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DAOs\BankClientDao.cs" />
+    <Compile Include="DAOs\BankClientOfflineDao.cs" />
     <Compile Include="DAOs\CurrentSessionDao.cs" />
     <Compile Include="DAOs\TransactionDao.cs" />
     <Compile Include="DatabaseConnectionFactory.cs" />

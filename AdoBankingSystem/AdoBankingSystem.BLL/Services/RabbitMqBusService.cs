@@ -17,7 +17,7 @@ namespace AdoBankingSystem.BLL.Services
 
                 bool result = connection.IsOpen;
                 if (result) return true;
-                else return false;
+                return false;
             }
             catch (Exception)
             {
@@ -29,11 +29,7 @@ namespace AdoBankingSystem.BLL.Services
             using (IConnection connection = _connectionFactory.CreateConnection())
             using (IModel channel = connection.CreateModel())
             {
-                channel.QueueDeclare(queue: queueName,
-                                 durable: true,
-                                 exclusive: false,
-                                 autoDelete: false,
-                                 arguments: null);
+                channel.QueueDeclare(queue: queueName, durable: true, exclusive: false, autoDelete: false, arguments: null);
 
                 var body = Encoding.UTF8.GetBytes(JsonConvert.SerializeObject(message));
 
