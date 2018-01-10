@@ -1,10 +1,7 @@
 ﻿using Newtonsoft.Json;
 using RabbitMQ.Client;
 using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace AdoBankingSystem.BLL.Services
 {
@@ -22,7 +19,7 @@ namespace AdoBankingSystem.BLL.Services
                 if (result) return true;
                 else return false;
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 return false;
             }

@@ -46,11 +46,11 @@ namespace ClientUI
             {
                 FirstName = firstName,
                 LastName = lastName,
+                Email = firstName,
+                PasswordHash = "12345",
                 ApplicationClientType = ApplicationClientType.BankClient,
                 CreatedTime = DateTime.Now,
-                Email = firstName,
-                EntityStatus = EntityStatusType.IsActive,
-                PasswordHash = "12345"
+                EntityStatus = EntityStatusType.IsActive
             };
 
             _rabbitMqBusService.PublishMessageToQueue<BankClientDto>("bank_client_registration_queue", bankClientDto);
