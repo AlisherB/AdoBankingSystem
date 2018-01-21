@@ -157,7 +157,7 @@ namespace AdoBankingSystem.DAL.DAOs
             }
         }
 
-        public string Update(TransactionDto record)
+        public void Update(TransactionDto record)
         {
             string baseQuery = "UPDATE dbo.Transactions SET Id = '{0}',SenderId = '{1}',ReceiverId = '{2}',TransactionType = {3},TransactionAmount = {4},TransactionTime = '{5}',CreatedTime = '{6}',EntityStatus = {7}";
             string realQuery = String.Format(baseQuery, record.Id, record.SenderId,
@@ -169,9 +169,8 @@ namespace AdoBankingSystem.DAL.DAOs
                 using (SqlCommand command = new SqlCommand(realQuery, sqlConnection))
                 {
                     sqlConnection.Close();
-                    return command.ExecuteNonQuery().ToString();
+                    command.ExecuteNonQuery().ToString();
                 }
-
             }
         }
     }

@@ -13,6 +13,7 @@ namespace AdoBankingSystem.DAL.DAOs
     public class BankClientDao : IDAO<BankClientDto>
     {
         private SqlConnection sqlConnection = null;
+        private BankClientDto bankClientDTOToReturn;
 
         public string Create(BankClientDto record)
         {
@@ -58,7 +59,36 @@ namespace AdoBankingSystem.DAL.DAOs
 
         public BankClientDto Read(string id)
         {
-            throw new NotImplementedException();
+            using (sqlConnection = DatabaseConnectionFactory.GetConnection())
+            {
+                sqlConnection.Open();
+                using (SqlCommand sqlCommand = sqlConnection.CreateCommand())
+                {
+                    string baseSelectQuery = @"SELECT * FROM [AdoBankingSystem].[dbo].[BankClient] WHERE [Id = {0}]";
+                    string realSelectQuery = String.Format(baseSelectQuery, id.ToString());
+
+                    sqlCommand.CommandText = realSelectQuery;
+                    sqlCommand.CommandType = CommandType.Text;
+
+                    SqlDataReader reader = sqlCommand.ExecuteReader();
+                    if (reader.HasRows)
+                    {
+                        reader.Read();
+                        bankClientDTOToReturn = new BankClientDto()
+                        {
+                            Id = reader["Id"].ToString(),
+                            FirstName = reader["FirstName"].ToString(),
+                            LastName = reader["LastName"].ToString(),
+                            Email = reader["Email"].ToString(),
+                            PasswordHash = reader["PasswordHash"].ToString(),
+                            CreatedTime = DateTime.Parse(reader["CreatedTime"].ToString()),
+                            EntityStatus = (EntityStatusType)Int32.Parse(reader["EntityStatus"].ToString())
+                        };
+                    }
+                }
+                sqlConnection.Close();
+            }
+            return bankClientDTOToReturn;
         }
 
         public ICollection<BankClientDto> Read()
@@ -98,12 +128,36 @@ namespace AdoBankingSystem.DAL.DAOs
 
         public void Remove(string id)
         {
-            throw new NotImplementedException();
+            using (sqlConnection = DatabaseConnectionFactory.GetConnection())
+            {
+                string baseQuery = "DELETE FROM [AdoBankingSystem].[dbo].[BankClient] WHERE Id = '{0}'";
+                string realQuery = String.Format(baseQuery, id);
+
+                sqlConnection.Open();
+
+                using (SqlCommand sqlCommand = new SqlCommand(realQuery, sqlConnection))
+                {
+                    sqlCommand.ExecuteNonQuery();
+                }
+                sqlConnection.Close();
+            }
         }
 
-        public string Update(BankClientDto record)
+        public void Update(BankClientDto record)
         {
-            throw new NotImplementedException();
+            using (sqlConnection = DatabaseConnectionFactory.GetConnection())
+            {
+                string baseQuery = "UPDATE [AdoBankingSystem].[dbo].[BankClient] SET Id = '{0}', Email = '{1}', FirstName = '{2}', LastName = {3}, PasswordHash = {4}, CreatedTime = {5}, EntityStatus = {6}";
+                string realQuery = String.Format(baseQuery, record.Id, record.Email, record.FirstName, record.LastName, record.PasswordHash, record.CreatedTime, record.EntityStatus);
+
+                sqlConnection.Open();
+
+                using (SqlCommand sqlCommand = new SqlCommand(realQuery, sqlConnection))
+                {
+                    sqlConnection.Close();
+                    sqlCommand.ExecuteNonQuery().ToString();
+                }
+            }
         }
     }
 }

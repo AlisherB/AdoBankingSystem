@@ -13,6 +13,8 @@ namespace AdoBankingSystem.DAL.DAOs
     public class CurrentSessionDao : IDAO<CurrentSessionDto>, IExtendedCurrentSession
     {
         private SqlConnection sqlConnection = null;
+        private CurrentSessionDto currentSessionDTOToReturn;
+
         public string Create(CurrentSessionDto record)
         {
             record.Id = Guid.NewGuid().ToString();
@@ -66,7 +68,35 @@ namespace AdoBankingSystem.DAL.DAOs
         }
         public CurrentSessionDto Read(string id)
         {
-            throw new NotImplementedException();
+            using (sqlConnection = DatabaseConnectionFactory.GetConnection())
+            {
+                sqlConnection.Open();
+                using (SqlCommand sqlCommand = sqlConnection.CreateCommand())
+                {
+                    string baseSelectQuery = @"SELECT * FROM [AdoBankingSystem].[dbo].[CurrentSessions] WHERE [Id = {0}]";
+                    string realSelectQuery = String.Format(baseSelectQuery, id.ToString());
+
+                    sqlCommand.CommandText = realSelectQuery;
+                    sqlCommand.CommandType = CommandType.Text;
+
+                    SqlDataReader reader = sqlCommand.ExecuteReader();
+                    if (reader.HasRows)
+                    {
+                        reader.Read();
+                        currentSessionDTOToReturn = new CurrentSessionDto()
+                        {
+                            Id = reader["Id"].ToString(),
+                            UserId = reader["UserId"].ToString(),
+                            SignInTime = DateTime.Parse(reader["SignInTime"].ToString()),
+                            LastOperationTime = DateTime.Parse(reader["LastOperationTime"].ToString()),
+                            CreatedTime = DateTime.Parse(reader["CreatedTime"].ToString()),
+                            EntityStatus = (EntityStatusType)Int32.Parse(reader["EntityStatus"].ToString())
+                        };
+                    }
+                }
+                sqlConnection.Close();
+            }
+            return currentSessionDTOToReturn;
         }
 
         public ICollection<CurrentSessionDto> Read()
@@ -123,9 +153,21 @@ namespace AdoBankingSystem.DAL.DAOs
             }
         }
 
-        public string Update(CurrentSessionDto record)
+        public void Update(CurrentSessionDto record)
         {
-            throw new NotImplementedException();
+            using (sqlConnection = DatabaseConnectionFactory.GetConnection())
+            {
+                string baseQuery = "UPDATE [AdoBankingSystem].[dbo].[CurrentSessions] SET Id = '{0}', UserId = '{1}', SignInTIme = '{2}', LastOperationTime = {3}, CreatedTime = {4}, EntityStatus = {5}";
+                string realQuery = String.Format(baseQuery, record.Id, record.UserId, record.SignInTime, record.LastOperationTime, record.CreatedTime, record.EntityStatus);
+
+                sqlConnection.Open();
+
+                using (SqlCommand sqlCommand = new SqlCommand(realQuery, sqlConnection))
+                {
+                    sqlConnection.Close();
+                    sqlCommand.ExecuteNonQuery().ToString();
+                }
+            }
         }
 
         
