@@ -1,5 +1,6 @@
 ﻿using AdoBankingSystem.BLL.Services;
 using AdoBankingSystem.Shared.DTOs;
+using AdoBankingSystem.Shared.Utils;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -22,16 +23,13 @@ namespace ClientUI
     /// </summary>
     public partial class MainWindow : Window
     {
-        private readonly RabbitMqBusService _rabbitMqBusService;
-
+        private OfflineStorageService _offlineDataPublisher;
+        private RabbitMqBusService _onlineDataPublisher;
+        private ApplicationClientService _applicationClientService;
         public MainWindow()
         {
-            _rabbitMqBusService = new RabbitMqBusService();
+            _onlineDataPublisher = new RabbitMqBusService();
             InitializeComponent();
-        }
-        private void CountButton_Click(object sender, RoutedEventArgs e)
-        {
-
         }
 
         private async void SignUpButton_Click(object sender, RoutedEventArgs e)
@@ -53,8 +51,28 @@ namespace ClientUI
                 EntityStatus = EntityStatusType.IsActive
             };
 
-            _rabbitMqBusService.PublishMessageToQueue<BankClientDto>("bank_client_registration_queue", bankClientDto);
+            if (ConnectionManagerUtil.IsConnectionAvailable())
+            {
+                var pastData = _offlineDataPublisher.GetAllPastData<BankClientDto>();
+                if (pastData.Count > 0)
+                {
+                    var sortedData = pastData.OrderBy(p => p.CreatedTime);
+                    foreach (var item in sortedData)
+                    {
+                        _onlineDataPublisher.PublishMessageToStorage(item);
+                    }
+                }
+
+                _onlineDataPublisher.PublishMessageToStorage(bankClientDto);
+            }
+            else _offlineDataPublisher.PublishMessageToStorage(bankClientDto);
+
+            //_onlineDataPublisher.PublishMessageToQueue<BankClientDto>("bank_client_registration_queue", bankClientDto);
         }
-        
+
+        private void SignInButton_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

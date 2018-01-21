@@ -2,6 +2,7 @@
 using RabbitMQ.Client;
 using System;
 using System.Text;
+using AdoBankingSystem.Shared.DTOs;
 
 namespace AdoBankingSystem.BLL.Services
 {
@@ -50,5 +51,12 @@ namespace AdoBankingSystem.BLL.Services
                 HostName = "52.166.219.193"
             };
         }
+
+        public void PublishMessageToStorage<T>(T data) where T : EntityDto
+        {
+            PublishMessageToQueue<T>(typeof(T).ToString(), data);
+        }
+
+
     }
 }

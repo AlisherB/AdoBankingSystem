@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AdoBankingSystem.Shared.DTOs;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,6 +9,6 @@ namespace AdoBankingSystem.BLL.Services
 {
     public interface IDataPublisher
     {
-        void PublishMessageToStorage<T>(string storeName, T data) where T : class;
+        void PublishMessageToStorage<T>(T data) where T : EntityDto;
     }
 }

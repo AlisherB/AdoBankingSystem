@@ -15,7 +15,7 @@
                 </LinearGradientBrush>
             </Button.Background>
         </Button>
-        <Button x:Name="countButton" Content="Count" HorizontalAlignment="Left" Margin="362,165,0,0" VerticalAlignment="Top" Width="81" Height="26" Click="CountButton_Click">
+        <Button x:Name="signInButton" Content="Sign In" HorizontalAlignment="Left" Margin="362,165,0,0" VerticalAlignment="Top" Width="81" Height="26" Click="SignInButton_Click">
             <Button.Background>
                 <LinearGradientBrush MappingMode="RelativeToBoundingBox">
                     <GradientStop Color="#FF3F3F46" Offset="1"/>

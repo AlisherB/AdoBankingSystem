@@ -28,10 +28,6 @@ C:\Users\БекмухамбетА\Documents\GitHub\AdoBankingSystem\AdoBankingSy
 C:\Users\БекмухамбетА\Documents\GitHub\AdoBankingSystem\AdoBankingSystem\AdoBankingSystem.BLL\obj\Debug\AdoBankingSystem.BLL.csprojResolveAssemblyReference.cache
 C:\Users\БекмухамбетА\Documents\GitHub\AdoBankingSystem\AdoBankingSystem\AdoBankingSystem.BLL\obj\Debug\AdoBankingSystem.BLL.dll
 C:\Users\БекмухамбетА\Documents\GitHub\AdoBankingSystem\AdoBankingSystem\AdoBankingSystem.BLL\obj\Debug\AdoBankingSystem.BLL.pdb
-C:\Users\Alisher\OneDrive\Documents\Академия Шаг\ADO.NET\AdoBankingSystem\AdoBankingSystem\AdoBankingSystem.BLL\obj\Debug\AdoBankingSystem.BLL.csprojResolveAssemblyReference.cache
-C:\Users\Alisher\OneDrive\Documents\Академия Шаг\ADO.NET\AdoBankingSystem\AdoBankingSystem\AdoBankingSystem.BLL\obj\Debug\AdoBankingSystem.BLL.csproj.CoreCompileInputs.cache
-C:\Users\Alisher\OneDrive\Documents\Академия Шаг\ADO.NET\AdoBankingSystem\AdoBankingSystem\AdoBankingSystem.BLL\obj\Debug\AdoBankingSystem.BLL.dll
-C:\Users\Alisher\OneDrive\Documents\Академия Шаг\ADO.NET\AdoBankingSystem\AdoBankingSystem\AdoBankingSystem.BLL\obj\Debug\AdoBankingSystem.BLL.pdb
 C:\Users\Alisher\OneDrive\Documents\Академия Шаг\ADO.NET\AdoBankingSystem\AdoBankingSystem\AdoBankingSystem.BLL\bin\Debug\AdoBankingSystem.BLL.dll
 C:\Users\Alisher\OneDrive\Documents\Академия Шаг\ADO.NET\AdoBankingSystem\AdoBankingSystem\AdoBankingSystem.BLL\bin\Debug\AdoBankingSystem.BLL.pdb
 C:\Users\Alisher\OneDrive\Documents\Академия Шаг\ADO.NET\AdoBankingSystem\AdoBankingSystem\AdoBankingSystem.BLL\bin\Debug\AdoBankingSystem.DAL.dll
@@ -39,8 +35,14 @@ C:\Users\Alisher\OneDrive\Documents\Академия Шаг\ADO.NET\AdoBankingSy
 C:\Users\Alisher\OneDrive\Documents\Академия Шаг\ADO.NET\AdoBankingSystem\AdoBankingSystem\AdoBankingSystem.BLL\bin\Debug\Microsoft.Diagnostics.Tracing.EventSource.dll
 C:\Users\Alisher\OneDrive\Documents\Академия Шаг\ADO.NET\AdoBankingSystem\AdoBankingSystem\AdoBankingSystem.BLL\bin\Debug\Newtonsoft.Json.dll
 C:\Users\Alisher\OneDrive\Documents\Академия Шаг\ADO.NET\AdoBankingSystem\AdoBankingSystem\AdoBankingSystem.BLL\bin\Debug\RabbitMQ.Client.dll
+C:\Users\Alisher\OneDrive\Documents\Академия Шаг\ADO.NET\AdoBankingSystem\AdoBankingSystem\AdoBankingSystem.BLL\bin\Debug\LiteDB.dll
 C:\Users\Alisher\OneDrive\Documents\Академия Шаг\ADO.NET\AdoBankingSystem\AdoBankingSystem\AdoBankingSystem.BLL\bin\Debug\AdoBankingSystem.DAL.pdb
 C:\Users\Alisher\OneDrive\Documents\Академия Шаг\ADO.NET\AdoBankingSystem\AdoBankingSystem\AdoBankingSystem.BLL\bin\Debug\AdoBankingSystem.Shared.pdb
 C:\Users\Alisher\OneDrive\Documents\Академия Шаг\ADO.NET\AdoBankingSystem\AdoBankingSystem\AdoBankingSystem.BLL\bin\Debug\Microsoft.Diagnostics.Tracing.EventSource.xml
 C:\Users\Alisher\OneDrive\Documents\Академия Шаг\ADO.NET\AdoBankingSystem\AdoBankingSystem\AdoBankingSystem.BLL\bin\Debug\Newtonsoft.Json.xml
 C:\Users\Alisher\OneDrive\Documents\Академия Шаг\ADO.NET\AdoBankingSystem\AdoBankingSystem\AdoBankingSystem.BLL\bin\Debug\RabbitMQ.Client.xml
+C:\Users\Alisher\OneDrive\Documents\Академия Шаг\ADO.NET\AdoBankingSystem\AdoBankingSystem\AdoBankingSystem.BLL\bin\Debug\LiteDB.xml
+C:\Users\Alisher\OneDrive\Documents\Академия Шаг\ADO.NET\AdoBankingSystem\AdoBankingSystem\AdoBankingSystem.BLL\obj\Debug\AdoBankingSystem.BLL.csprojResolveAssemblyReference.cache
+C:\Users\Alisher\OneDrive\Documents\Академия Шаг\ADO.NET\AdoBankingSystem\AdoBankingSystem\AdoBankingSystem.BLL\obj\Debug\AdoBankingSystem.BLL.csproj.CoreCompileInputs.cache
+C:\Users\Alisher\OneDrive\Documents\Академия Шаг\ADO.NET\AdoBankingSystem\AdoBankingSystem\AdoBankingSystem.BLL\obj\Debug\AdoBankingSystem.BLL.dll
+C:\Users\Alisher\OneDrive\Documents\Академия Шаг\ADO.NET\AdoBankingSystem\AdoBankingSystem\AdoBankingSystem.BLL\obj\Debug\AdoBankingSystem.BLL.pdb

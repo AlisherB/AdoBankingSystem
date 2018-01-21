@@ -5,11 +5,14 @@ C:\Users\БекмухамбетА\Desktop\ADO.NET\AdoBankingSystem\AdoBankingSys
 C:\Users\БекмухамбетА\Desktop\ADO.NET\AdoBankingSystem\AdoBankingSystem.Shared\obj\Debug\AdoBankingSystem.Shared.csprojResolveAssemblyReference.cache
 C:\Users\БекмухамбетА\Desktop\ADO.NET\AdoBankingSystem\AdoBankingSystem.Shared\obj\Debug\AdoBankingSystem.Shared.dll
 C:\Users\БекмухамбетА\Desktop\ADO.NET\AdoBankingSystem\AdoBankingSystem.Shared\obj\Debug\AdoBankingSystem.Shared.pdb
-C:\Users\Alisher\OneDrive\Documents\Академия Шаг\ADO.NET\AdoBankingSystem\AdoBankingSystem\AdoBankingSystem.Shared\obj\Debug\AdoBankingSystem.Shared.csprojResolveAssemblyReference.cache
-C:\Users\Alisher\OneDrive\Documents\Академия Шаг\ADO.NET\AdoBankingSystem\AdoBankingSystem\AdoBankingSystem.Shared\obj\Debug\AdoBankingSystem.Shared.csproj.CoreCompileInputs.cache
-C:\Users\Alisher\OneDrive\Documents\Академия Шаг\ADO.NET\AdoBankingSystem\AdoBankingSystem\AdoBankingSystem.Shared\obj\Debug\AdoBankingSystem.Shared.dll
-C:\Users\Alisher\OneDrive\Documents\Академия Шаг\ADO.NET\AdoBankingSystem\AdoBankingSystem\AdoBankingSystem.Shared\obj\Debug\AdoBankingSystem.Shared.pdb
 C:\Users\Alisher\OneDrive\Documents\Академия Шаг\ADO.NET\AdoBankingSystem\AdoBankingSystem\AdoBankingSystem.Shared\bin\Debug\AdoBankingSystem.Shared.dll
 C:\Users\Alisher\OneDrive\Documents\Академия Шаг\ADO.NET\AdoBankingSystem\AdoBankingSystem\AdoBankingSystem.Shared\bin\Debug\AdoBankingSystem.Shared.pdb
 C:\Users\Alisher\OneDrive\Documents\Академия Шаг\ADO.NET\AdoBankingSystem\AdoBankingSystem\AdoBankingSystem.Shared\bin\Debug\LiteDB.dll
+C:\Users\Alisher\OneDrive\Documents\Академия Шаг\ADO.NET\AdoBankingSystem\AdoBankingSystem\AdoBankingSystem.Shared\bin\Debug\Microsoft.Diagnostics.Tracing.EventSource.dll
+C:\Users\Alisher\OneDrive\Documents\Академия Шаг\ADO.NET\AdoBankingSystem\AdoBankingSystem\AdoBankingSystem.Shared\bin\Debug\RabbitMQ.Client.dll
 C:\Users\Alisher\OneDrive\Documents\Академия Шаг\ADO.NET\AdoBankingSystem\AdoBankingSystem\AdoBankingSystem.Shared\bin\Debug\LiteDB.xml
+C:\Users\Alisher\OneDrive\Documents\Академия Шаг\ADO.NET\AdoBankingSystem\AdoBankingSystem\AdoBankingSystem.Shared\bin\Debug\Microsoft.Diagnostics.Tracing.EventSource.xml
+C:\Users\Alisher\OneDrive\Documents\Академия Шаг\ADO.NET\AdoBankingSystem\AdoBankingSystem\AdoBankingSystem.Shared\bin\Debug\RabbitMQ.Client.xml
+C:\Users\Alisher\OneDrive\Documents\Академия Шаг\ADO.NET\AdoBankingSystem\AdoBankingSystem\AdoBankingSystem.Shared\obj\Debug\AdoBankingSystem.Shared.csproj.CoreCompileInputs.cache
+C:\Users\Alisher\OneDrive\Documents\Академия Шаг\ADO.NET\AdoBankingSystem\AdoBankingSystem\AdoBankingSystem.Shared\obj\Debug\AdoBankingSystem.Shared.dll
+C:\Users\Alisher\OneDrive\Documents\Академия Шаг\ADO.NET\AdoBankingSystem\AdoBankingSystem\AdoBankingSystem.Shared\obj\Debug\AdoBankingSystem.Shared.pdb

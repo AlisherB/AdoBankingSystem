@@ -143,7 +143,7 @@ namespace AdoBankingSystem.DAL.DAOs
             }
         }
 
-        public void Update(BankClientDto record)
+        public string Update(BankClientDto record)
         {
             using (sqlConnection = DatabaseConnectionFactory.GetConnection())
             {
@@ -157,6 +157,7 @@ namespace AdoBankingSystem.DAL.DAOs
                     sqlConnection.Close();
                     sqlCommand.ExecuteNonQuery().ToString();
                 }
+                return record.ToString();
             }
         }
     }

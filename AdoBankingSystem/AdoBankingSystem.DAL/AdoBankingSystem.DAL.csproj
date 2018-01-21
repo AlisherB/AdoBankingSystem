@@ -31,6 +31,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="LiteDB, Version=4.1.1.0, Culture=neutral, PublicKeyToken=4ee40123013c9f27, processorArchitecture=MSIL">
+      <HintPath>..\packages\LiteDB.4.1.1\lib\net40\LiteDB.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
@@ -43,7 +46,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DAOs\BankClientDao.cs" />
-    <Compile Include="DAOs\BankClientOfflineDao.cs" />
+    <Compile Include="DAOs\OfflineDao.cs" />
     <Compile Include="DAOs\BankManagerDao.cs" />
     <Compile Include="DAOs\CurrentSessionDao.cs" />
     <Compile Include="DAOs\TransactionDao.cs" />
@@ -60,6 +63,9 @@
       <Project>{7CCC45F2-3E16-456E-B6B7-98A4677CA43B}</Project>
       <Name>AdoBankingSystem.Shared</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

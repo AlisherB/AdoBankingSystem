@@ -10,7 +10,7 @@ namespace AdoBankingSystem.DAL.Interfaces
         where T : class
     {
         string Create(T record);
-        void Update(T record);
+        string Update(T record);
         void Remove(string id);
         T Read(string id);
         ICollection<T> Read();

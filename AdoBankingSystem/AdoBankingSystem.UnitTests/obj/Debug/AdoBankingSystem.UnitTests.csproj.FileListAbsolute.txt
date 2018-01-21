@@ -26,10 +26,6 @@ C:\Users\БекмухамбетА\Desktop\ADO.NET\AdoBankingSystem\AdoBankingSys
 C:\Users\БекмухамбетА\Desktop\ADO.NET\AdoBankingSystem\AdoBankingSystem.UnitTests\obj\Debug\AdoBankingSystem.UnitTests.csprojResolveAssemblyReference.cache
 C:\Users\БекмухамбетА\Desktop\ADO.NET\AdoBankingSystem\AdoBankingSystem.UnitTests\obj\Debug\AdoBankingSystem.UnitTests.dll
 C:\Users\БекмухамбетА\Desktop\ADO.NET\AdoBankingSystem\AdoBankingSystem.UnitTests\obj\Debug\AdoBankingSystem.UnitTests.pdb
-C:\Users\Alisher\OneDrive\Documents\Академия Шаг\ADO.NET\AdoBankingSystem\AdoBankingSystem\AdoBankingSystem.UnitTests\obj\Debug\AdoBankingSystem.UnitTests.csprojResolveAssemblyReference.cache
-C:\Users\Alisher\OneDrive\Documents\Академия Шаг\ADO.NET\AdoBankingSystem\AdoBankingSystem\AdoBankingSystem.UnitTests\obj\Debug\AdoBankingSystem.UnitTests.csproj.CoreCompileInputs.cache
-C:\Users\Alisher\OneDrive\Documents\Академия Шаг\ADO.NET\AdoBankingSystem\AdoBankingSystem\AdoBankingSystem.UnitTests\obj\Debug\AdoBankingSystem.UnitTests.dll
-C:\Users\Alisher\OneDrive\Documents\Академия Шаг\ADO.NET\AdoBankingSystem\AdoBankingSystem\AdoBankingSystem.UnitTests\obj\Debug\AdoBankingSystem.UnitTests.pdb
 C:\Users\Alisher\OneDrive\Documents\Академия Шаг\ADO.NET\AdoBankingSystem\AdoBankingSystem\AdoBankingSystem.UnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
 C:\Users\Alisher\OneDrive\Documents\Академия Шаг\ADO.NET\AdoBankingSystem\AdoBankingSystem\AdoBankingSystem.UnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
 C:\Users\Alisher\OneDrive\Documents\Академия Шаг\ADO.NET\AdoBankingSystem\AdoBankingSystem\AdoBankingSystem.UnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
@@ -46,6 +42,7 @@ C:\Users\Alisher\OneDrive\Documents\Академия Шаг\ADO.NET\AdoBankingSy
 C:\Users\Alisher\OneDrive\Documents\Академия Шаг\ADO.NET\AdoBankingSystem\AdoBankingSystem\AdoBankingSystem.UnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
 C:\Users\Alisher\OneDrive\Documents\Академия Шаг\ADO.NET\AdoBankingSystem\AdoBankingSystem\AdoBankingSystem.UnitTests\bin\Debug\RabbitMQ.Client.dll
 C:\Users\Alisher\OneDrive\Documents\Академия Шаг\ADO.NET\AdoBankingSystem\AdoBankingSystem\AdoBankingSystem.UnitTests\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Alisher\OneDrive\Documents\Академия Шаг\ADO.NET\AdoBankingSystem\AdoBankingSystem\AdoBankingSystem.UnitTests\bin\Debug\LiteDB.dll
 C:\Users\Alisher\OneDrive\Documents\Академия Шаг\ADO.NET\AdoBankingSystem\AdoBankingSystem\AdoBankingSystem.UnitTests\bin\Debug\Microsoft.Diagnostics.Tracing.EventSource.dll
 C:\Users\Alisher\OneDrive\Documents\Академия Шаг\ADO.NET\AdoBankingSystem\AdoBankingSystem\AdoBankingSystem.UnitTests\bin\Debug\AdoBankingSystem.BLL.pdb
 C:\Users\Alisher\OneDrive\Documents\Академия Шаг\ADO.NET\AdoBankingSystem\AdoBankingSystem\AdoBankingSystem.UnitTests\bin\Debug\AdoBankingSystem.DAL.pdb
@@ -54,4 +51,9 @@ C:\Users\Alisher\OneDrive\Documents\Академия Шаг\ADO.NET\AdoBankingSy
 C:\Users\Alisher\OneDrive\Documents\Академия Шаг\ADO.NET\AdoBankingSystem\AdoBankingSystem\AdoBankingSystem.UnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
 C:\Users\Alisher\OneDrive\Documents\Академия Шаг\ADO.NET\AdoBankingSystem\AdoBankingSystem\AdoBankingSystem.UnitTests\bin\Debug\RabbitMQ.Client.xml
 C:\Users\Alisher\OneDrive\Documents\Академия Шаг\ADO.NET\AdoBankingSystem\AdoBankingSystem\AdoBankingSystem.UnitTests\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Alisher\OneDrive\Documents\Академия Шаг\ADO.NET\AdoBankingSystem\AdoBankingSystem\AdoBankingSystem.UnitTests\bin\Debug\LiteDB.xml
 C:\Users\Alisher\OneDrive\Documents\Академия Шаг\ADO.NET\AdoBankingSystem\AdoBankingSystem\AdoBankingSystem.UnitTests\bin\Debug\Microsoft.Diagnostics.Tracing.EventSource.xml
+C:\Users\Alisher\OneDrive\Documents\Академия Шаг\ADO.NET\AdoBankingSystem\AdoBankingSystem\AdoBankingSystem.UnitTests\obj\Debug\AdoBankingSystem.UnitTests.csprojResolveAssemblyReference.cache
+C:\Users\Alisher\OneDrive\Documents\Академия Шаг\ADO.NET\AdoBankingSystem\AdoBankingSystem\AdoBankingSystem.UnitTests\obj\Debug\AdoBankingSystem.UnitTests.csproj.CoreCompileInputs.cache
+C:\Users\Alisher\OneDrive\Documents\Академия Шаг\ADO.NET\AdoBankingSystem\AdoBankingSystem\AdoBankingSystem.UnitTests\obj\Debug\AdoBankingSystem.UnitTests.dll
+C:\Users\Alisher\OneDrive\Documents\Академия Шаг\ADO.NET\AdoBankingSystem\AdoBankingSystem\AdoBankingSystem.UnitTests\obj\Debug\AdoBankingSystem.UnitTests.pdb

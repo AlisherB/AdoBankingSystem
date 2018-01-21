@@ -5,6 +5,16 @@ C:\Users\БекмухамбетА\Desktop\ADO.NET\AdoBankingSystem\AdoBankingSys
 C:\Users\БекмухамбетА\Desktop\ADO.NET\AdoBankingSystem\AdoBankingSystem.DAL\obj\Debug\AdoBankingSystem.DAL.csprojResolveAssemblyReference.cache
 C:\Users\БекмухамбетА\Desktop\ADO.NET\AdoBankingSystem\AdoBankingSystem.DAL\obj\Debug\AdoBankingSystem.DAL.dll
 C:\Users\БекмухамбетА\Desktop\ADO.NET\AdoBankingSystem\AdoBankingSystem.DAL\obj\Debug\AdoBankingSystem.DAL.pdb
+C:\Users\Alisher\OneDrive\Documents\Академия Шаг\ADO.NET\AdoBankingSystem\AdoBankingSystem\AdoBankingSystem.DAL\bin\Debug\AdoBankingSystem.DAL.dll
+C:\Users\Alisher\OneDrive\Documents\Академия Шаг\ADO.NET\AdoBankingSystem\AdoBankingSystem\AdoBankingSystem.DAL\bin\Debug\AdoBankingSystem.DAL.pdb
+C:\Users\Alisher\OneDrive\Documents\Академия Шаг\ADO.NET\AdoBankingSystem\AdoBankingSystem\AdoBankingSystem.DAL\bin\Debug\AdoBankingSystem.Shared.dll
+C:\Users\Alisher\OneDrive\Documents\Академия Шаг\ADO.NET\AdoBankingSystem\AdoBankingSystem\AdoBankingSystem.DAL\bin\Debug\LiteDB.dll
+C:\Users\Alisher\OneDrive\Documents\Академия Шаг\ADO.NET\AdoBankingSystem\AdoBankingSystem\AdoBankingSystem.DAL\bin\Debug\RabbitMQ.Client.dll
+C:\Users\Alisher\OneDrive\Documents\Академия Шаг\ADO.NET\AdoBankingSystem\AdoBankingSystem\AdoBankingSystem.DAL\bin\Debug\Microsoft.Diagnostics.Tracing.EventSource.dll
+C:\Users\Alisher\OneDrive\Documents\Академия Шаг\ADO.NET\AdoBankingSystem\AdoBankingSystem\AdoBankingSystem.DAL\bin\Debug\AdoBankingSystem.Shared.pdb
+C:\Users\Alisher\OneDrive\Documents\Академия Шаг\ADO.NET\AdoBankingSystem\AdoBankingSystem\AdoBankingSystem.DAL\bin\Debug\LiteDB.xml
+C:\Users\Alisher\OneDrive\Documents\Академия Шаг\ADO.NET\AdoBankingSystem\AdoBankingSystem\AdoBankingSystem.DAL\bin\Debug\RabbitMQ.Client.xml
+C:\Users\Alisher\OneDrive\Documents\Академия Шаг\ADO.NET\AdoBankingSystem\AdoBankingSystem\AdoBankingSystem.DAL\bin\Debug\Microsoft.Diagnostics.Tracing.EventSource.xml
 C:\Users\Alisher\OneDrive\Documents\Академия Шаг\ADO.NET\AdoBankingSystem\AdoBankingSystem\AdoBankingSystem.DAL\obj\Debug\AdoBankingSystem.DAL.csprojResolveAssemblyReference.cache
 C:\Users\Alisher\OneDrive\Documents\Академия Шаг\ADO.NET\AdoBankingSystem\AdoBankingSystem\AdoBankingSystem.DAL\obj\Debug\AdoBankingSystem.DAL.csproj.CoreCompileInputs.cache
 C:\Users\Alisher\OneDrive\Documents\Академия Шаг\ADO.NET\AdoBankingSystem\AdoBankingSystem\AdoBankingSystem.DAL\obj\Debug\AdoBankingSystem.DAL.dll

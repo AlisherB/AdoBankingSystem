@@ -50,13 +50,6 @@ C:\Users\БекмухамбетА\Documents\GitHub\AdoBankingSystem\AdoBankingSy
 C:\Users\БекмухамбетА\Documents\GitHub\AdoBankingSystem\AdoBankingSystem\ClientUI\obj\Debug\ClientUI.csproj.GenerateResource.Cache
 C:\Users\БекмухамбетА\Documents\GitHub\AdoBankingSystem\AdoBankingSystem\ClientUI\obj\Debug\ClientUI.exe
 C:\Users\БекмухамбетА\Documents\GitHub\AdoBankingSystem\AdoBankingSystem\ClientUI\obj\Debug\ClientUI.pdb
-C:\Users\Alisher\OneDrive\Documents\Академия Шаг\ADO.NET\AdoBankingSystem\AdoBankingSystem\ClientUI\obj\Debug\ClientUI.csprojResolveAssemblyReference.cache
-C:\Users\Alisher\OneDrive\Documents\Академия Шаг\ADO.NET\AdoBankingSystem\AdoBankingSystem\ClientUI\obj\Debug\MainWindow.g.cs
-C:\Users\Alisher\OneDrive\Documents\Академия Шаг\ADO.NET\AdoBankingSystem\AdoBankingSystem\ClientUI\obj\Debug\App.g.cs
-C:\Users\Alisher\OneDrive\Documents\Академия Шаг\ADO.NET\AdoBankingSystem\AdoBankingSystem\ClientUI\obj\Debug\ClientUI_MarkupCompile.cache
-C:\Users\Alisher\OneDrive\Documents\Академия Шаг\ADO.NET\AdoBankingSystem\AdoBankingSystem\ClientUI\obj\Debug\ClientUI_MarkupCompile.lref
-C:\Users\Alisher\OneDrive\Documents\Академия Шаг\ADO.NET\AdoBankingSystem\AdoBankingSystem\ClientUI\obj\Debug\ClientUI.exe
-C:\Users\Alisher\OneDrive\Documents\Академия Шаг\ADO.NET\AdoBankingSystem\AdoBankingSystem\ClientUI\obj\Debug\ClientUI.pdb
 C:\Users\Alisher\OneDrive\Documents\Академия Шаг\ADO.NET\AdoBankingSystem\AdoBankingSystem\ClientUI\bin\Debug\ClientUI.exe.config
 C:\Users\Alisher\OneDrive\Documents\Академия Шаг\ADO.NET\AdoBankingSystem\AdoBankingSystem\ClientUI\bin\Debug\ClientUI.exe
 C:\Users\Alisher\OneDrive\Documents\Академия Шаг\ADO.NET\AdoBankingSystem\AdoBankingSystem\ClientUI\bin\Debug\ClientUI.pdb
@@ -65,15 +58,24 @@ C:\Users\Alisher\OneDrive\Documents\Академия Шаг\ADO.NET\AdoBankingSy
 C:\Users\Alisher\OneDrive\Documents\Академия Шаг\ADO.NET\AdoBankingSystem\AdoBankingSystem\ClientUI\bin\Debug\AdoBankingSystem.DAL.dll
 C:\Users\Alisher\OneDrive\Documents\Академия Шаг\ADO.NET\AdoBankingSystem\AdoBankingSystem\ClientUI\bin\Debug\RabbitMQ.Client.dll
 C:\Users\Alisher\OneDrive\Documents\Академия Шаг\ADO.NET\AdoBankingSystem\AdoBankingSystem\ClientUI\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Alisher\OneDrive\Documents\Академия Шаг\ADO.NET\AdoBankingSystem\AdoBankingSystem\ClientUI\bin\Debug\LiteDB.dll
 C:\Users\Alisher\OneDrive\Documents\Академия Шаг\ADO.NET\AdoBankingSystem\AdoBankingSystem\ClientUI\bin\Debug\Microsoft.Diagnostics.Tracing.EventSource.dll
 C:\Users\Alisher\OneDrive\Documents\Академия Шаг\ADO.NET\AdoBankingSystem\AdoBankingSystem\ClientUI\bin\Debug\AdoBankingSystem.BLL.pdb
 C:\Users\Alisher\OneDrive\Documents\Академия Шаг\ADO.NET\AdoBankingSystem\AdoBankingSystem\ClientUI\bin\Debug\AdoBankingSystem.Shared.pdb
 C:\Users\Alisher\OneDrive\Documents\Академия Шаг\ADO.NET\AdoBankingSystem\AdoBankingSystem\ClientUI\bin\Debug\AdoBankingSystem.DAL.pdb
 C:\Users\Alisher\OneDrive\Documents\Академия Шаг\ADO.NET\AdoBankingSystem\AdoBankingSystem\ClientUI\bin\Debug\RabbitMQ.Client.xml
 C:\Users\Alisher\OneDrive\Documents\Академия Шаг\ADO.NET\AdoBankingSystem\AdoBankingSystem\ClientUI\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Alisher\OneDrive\Documents\Академия Шаг\ADO.NET\AdoBankingSystem\AdoBankingSystem\ClientUI\bin\Debug\LiteDB.xml
 C:\Users\Alisher\OneDrive\Documents\Академия Шаг\ADO.NET\AdoBankingSystem\AdoBankingSystem\ClientUI\bin\Debug\Microsoft.Diagnostics.Tracing.EventSource.xml
+C:\Users\Alisher\OneDrive\Documents\Академия Шаг\ADO.NET\AdoBankingSystem\AdoBankingSystem\ClientUI\obj\Debug\ClientUI.csprojResolveAssemblyReference.cache
+C:\Users\Alisher\OneDrive\Documents\Академия Шаг\ADO.NET\AdoBankingSystem\AdoBankingSystem\ClientUI\obj\Debug\MainWindow.g.cs
+C:\Users\Alisher\OneDrive\Documents\Академия Шаг\ADO.NET\AdoBankingSystem\AdoBankingSystem\ClientUI\obj\Debug\App.g.cs
+C:\Users\Alisher\OneDrive\Documents\Академия Шаг\ADO.NET\AdoBankingSystem\AdoBankingSystem\ClientUI\obj\Debug\ClientUI_MarkupCompile.cache
+C:\Users\Alisher\OneDrive\Documents\Академия Шаг\ADO.NET\AdoBankingSystem\AdoBankingSystem\ClientUI\obj\Debug\ClientUI_MarkupCompile.lref
 C:\Users\Alisher\OneDrive\Documents\Академия Шаг\ADO.NET\AdoBankingSystem\AdoBankingSystem\ClientUI\obj\Debug\MainWindow.baml
 C:\Users\Alisher\OneDrive\Documents\Академия Шаг\ADO.NET\AdoBankingSystem\AdoBankingSystem\ClientUI\obj\Debug\ClientUI.g.resources
 C:\Users\Alisher\OneDrive\Documents\Академия Шаг\ADO.NET\AdoBankingSystem\AdoBankingSystem\ClientUI\obj\Debug\ClientUI.Properties.Resources.resources
 C:\Users\Alisher\OneDrive\Documents\Академия Шаг\ADO.NET\AdoBankingSystem\AdoBankingSystem\ClientUI\obj\Debug\ClientUI.csproj.GenerateResource.Cache
 C:\Users\Alisher\OneDrive\Documents\Академия Шаг\ADO.NET\AdoBankingSystem\AdoBankingSystem\ClientUI\obj\Debug\ClientUI.csproj.CoreCompileInputs.cache
+C:\Users\Alisher\OneDrive\Documents\Академия Шаг\ADO.NET\AdoBankingSystem\AdoBankingSystem\ClientUI\obj\Debug\ClientUI.exe
+C:\Users\Alisher\OneDrive\Documents\Академия Шаг\ADO.NET\AdoBankingSystem\AdoBankingSystem\ClientUI\obj\Debug\ClientUI.pdb

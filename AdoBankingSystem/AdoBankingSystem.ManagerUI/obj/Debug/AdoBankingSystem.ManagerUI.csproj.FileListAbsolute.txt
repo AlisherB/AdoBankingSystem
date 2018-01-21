@@ -14,3 +14,4 @@ C:\Users\Alisher\OneDrive\Documents\Академия Шаг\ADO.NET\AdoBankingSy
 C:\Users\Alisher\OneDrive\Documents\Академия Шаг\ADO.NET\AdoBankingSystem\AdoBankingSystem\AdoBankingSystem.ManagerUI\obj\Debug\AdoBankingSystem.ManagerUI.csproj.CoreCompileInputs.cache
 C:\Users\Alisher\OneDrive\Documents\Академия Шаг\ADO.NET\AdoBankingSystem\AdoBankingSystem\AdoBankingSystem.ManagerUI\obj\Debug\AdoBankingSystem.ManagerUI.exe
 C:\Users\Alisher\OneDrive\Documents\Академия Шаг\ADO.NET\AdoBankingSystem\AdoBankingSystem\AdoBankingSystem.ManagerUI\obj\Debug\AdoBankingSystem.ManagerUI.pdb
+C:\Users\Alisher\OneDrive\Documents\Академия Шаг\ADO.NET\AdoBankingSystem\AdoBankingSystem\AdoBankingSystem.ManagerUI\obj\Debug\AdoBankingSystem.ManagerUI.csprojResolveAssemblyReference.cache
